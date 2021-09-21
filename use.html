@@ -1,0 +1,32 @@
+<body bgcolor="#fff2fa">
+<table border="1" cellspacing="4" cellpadding="5">
+{% for use in userrDetails%}
+
+<th>Product_Name</th>
+<th>Details</th>
+<th>Image</th>
+<th>Video</th>
+
+
+
+
+
+<tr>
+<td>{{use[0]}}</td>
+<td>{{use[1]}}</td>
+<td>{{use[2]}}</td>
+<td>{{use[3]}}</td>
+<td><input type="submit" value="save" style="background-color:green";"color:white";></td>
+<td><input type="submit" value="Delete" style="background-color:red";"color:white";></td>
+</tr>
+{% endfor %}
+
+
+
+
+
+
+
+</table>
+
+</body>
